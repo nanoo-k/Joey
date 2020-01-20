@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <h1>Joey Moran</h1>
+        <nav>
+            <ul>
+                <li>menu item</li>
+                <li>menu item</li>
+                <li>menu item</li>
+                <li>menu item</li>
+            </ul>
+        </nav>
+
+        <div class="video-container">
+            <div class="video-container__column">
+                <div class="video-container__column__video">
+                    <img src="assets/images/amethyst.png" alt="">
+                </div>
+                <div class="video-container__column__video">
+                    <img src="assets/images/joey-2.png" alt="">
+                </div>
+            </div>
+            <div class="video-container__column">
+                <div class="video-container__column__video">
+                    <img src="assets/images/joey-1.png" alt="">
+                </div>
+                <div class="video-container__column__video">
+                    <img src="assets/images/amy-goodman.png" alt="">
+                </div>
+                <div class="video-container__column__video">
+                    <video>
+    
+                        <source src="file:///Users/miguelvalencia/Projects/Joey/assets/videos/flowers3_doc.webm"
+                                type="video/webm">
+
+                        <!-- <source src="/assets/videos/Untitled2325.mpg"
+                            type="video/mpg"> -->
+
+                    </video>
+
+                    <div class="video__controls">
+                        <button onclick="document.getElementsByTagName('video')[0].play()">Play</button>
+                        <button onclick="document.getElementsByTagName('video')[0].pause()">Pause</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="main.js" async defer></script>
+    </body>
+</html>
